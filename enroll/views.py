@@ -5,6 +5,7 @@ from .models import User
 
 # This Function Will Add new Item and Show All Items
 def add_show(request):
+  #this is comment
  if request.method == 'POST':
   fm = StudentRegistration(request.POST)
   if fm.is_valid():
